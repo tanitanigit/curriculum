@@ -6,89 +6,89 @@ public class Qes1_13 {
 		// [概要] ローカル変数処理
 		// [詳細] 9個の型に変数の宣言をする。
 		
-		// バイト型の変数「aaa」を宣言
-		byte aaa;
-		// 短整数型の変数「bbb」を宣言
-		short bbb;
-		// 整数型の変数「ccc」を宣言
-		int ccc;
-		// 長整数型の変数「ddd」を宣言
-		long ddd;
-		// 単精度浮動小数点数型の変数「eee」を宣言
-		float eee;
-		// 倍精度浮動小数点数型の変数「fff」を宣言
-		double fff;
-		// 文字型の変数「ggg」を宣言
-		char ggg;
-		// 文字列型の変数「hhh」を宣言
-		String hhh;
-		// ブーリアン型の変数「iii」を宣言
-		boolean iii;
+		// バイト型の変数「byt」を宣言
+		byte byt;
+		// 短整数型の変数「sho」を宣言
+		short sho;
+		// 整数型の変数「in_t」を宣言
+		int in_t;
+		// 長整数型の変数「lon」を宣言
+		long lon;
+		// 単精度浮動小数点数型の変数「flo」を宣言
+		float flo;
+		// 倍精度浮動小数点数型の変数「dou」を宣言
+		double dou;
+		// 文字型の変数「cha」を宣言
+		char cha;
+		// 文字列型の変数「str」を宣言
+		String str;
+		// ブーリアン型の変数「boo」を宣言
+		boolean boo;
 		
 		// 2
 		// [概要] 変数の初期化処理
 		// [詳細] 9個の変数に初期値を代入する。
 		
-		// バイト型の変数「aaa」に「1」を代入
-		aaa = 1;
-		// 短整数型の変数「bbb」に「2」を代入
-		bbb = 2;
-		// 整数型の変数「ccc」に「3」を代入
-		ccc = 3;
-		// 長整数型の変数「ddd」に「4」を代入
-		ddd = 4;
-		// 単精度浮動小数点数型の変数「eee」に「5」を代入
-		eee = 5f;
-		// 倍精度浮動小数点数型の変数「fff」に「6」を代入
-		fff = 6;
-		// 文字型の変数「ggg」に「7」を代入
-		ggg = '7';
-		// 文字列型の変数「hhh」に「8」を代入
-		hhh = "8";
-		// ブーリアン型の変数「iii」に「false」を代入
-		iii = false;
+		// バイト型の変数「byt」に初期値「0」を代入
+		byt = 0;
+		// 短整数型の変数「sho」に初期値「0」を代入
+		sho = 0;
+		// 整数型の変数「in_t」に初期値「0」を代入
+		in_t = 0;
+		// 長整数型の変数「lon」に初期値「0」を代入
+		lon = 0;
+		// 単精度浮動小数点数型の変数「flo」に初期値「0.0」を代入
+		flo = 0.0f;
+		// 倍精度浮動小数点数型の変数「dou」に初期値「0.0」を代入
+		dou = 0.0;
+		// 文字型の変数「cha」に初期値「\u0000」を代入
+		cha = '\u0000';
+		// 文字列型の変数「str」に初期値「null」を代入
+		str = "null";
+		// ブーリアン型の変数「boo」に初期値「false」を代入
+		boo = false;
 		
 		// 3
 		// [概要] 変数の代入処理
 		// [詳細] 変数に指定の値を代入する。
 		
-		// バイト型の変数「aaa」に「10」を代入
-		aaa = 10;
-		// 短整数型の変数「bbb」に「100」を代入
-		bbb = 100;
-		// 整数型の変数「ccc」に「1000」を代入
-		ccc = 1000;
-		// 長整数型の変数「ddd」に「10000」を代入
-		ddd = 10000;
-		// 単精度浮動小数点数型の変数「eee」に「9.5」を代入
-		eee = 9.5f;
-		// 倍精度浮動小数点数型の変数「fff」に「10.5」を代入
-		fff = 10.5;
-		// 文字型の変数「ggg」に「a」を代入
-		ggg = 'a';
-		// 文字列型の変数「hhh」に「ハロー」を代入
-		hhh = "ハロー";
-		// ブーリアン型の変数「iii」に「true」を代入
-		iii = true;
+		// バイト型の変数「byt」に「10」を代入
+		byt = 10;
+		// 短整数型の変数「sho」に「100」を代入
+		sho = 100;
+		// 整数型の変数「in_t」に「1000」を代入
+		in_t = 1000;
+		// 長整数型の変数「lon」に「10000」を代入
+		lon = 10000;
+		// 単精度浮動小数点数型の変数「flo」に「9.5」を代入
+		flo = 9.5f;
+		// 倍精度浮動小数点数型の変数「dou」に「10.5」を代入
+		dou = 10.5;
+		// 文字型の変数「cha」に「a」を代入
+		cha = 'a';
+		// 文字列型の変数「str」に「ハロー」を代入
+		str = "ハロー";
+		// ブーリアン型の変数「boo」に「true」を代入
+		boo = true;
 		
 		// 4
 		// [概要] コンソール出力処理
 		// [詳細] 上記の変数を用いて指定の値を出力する。
 		
 		// 「11110」を出力
-		System.out.println(aaa + bbb + ccc + ddd);
+		System.out.println(byt + sho + in_t + lon);
 		// 「20」を出力
-		System.out.println(aaa + aaa);
+		System.out.println(byt + byt);
 		// 「aハローtrue」を出力
-		System.out.println(ggg + hhh + iii);
+		System.out.println(cha + str + boo);
 		// 「11130」を出力(数字を全て足す)
-		System.out.println(aaa + bbb + ccc + ddd + eee + fff);
+		System.out.println(byt + sho + in_t + lon + flo + dou);
 		// 「10000000000」を出力(小数点以外の数字を全てかける)
-		System.out.println(aaa * bbb * ccc * ddd);
+		System.out.println(byt * sho * in_t * lon);
 		// 「0.105」を出力(10.5割る100をする)
-		System.out.println(fff / bbb);
+		System.out.println(dou / sho);
 		// 「-90」を出力(10引く100をする)
-		System.out.println(aaa - bbb);
+		System.out.println(byt - sho);
 		// 改行
 		System.out.println();
 		
@@ -223,6 +223,8 @@ public class Qes1_13 {
 		// [概要] 演算子を用いた処理
 		// [詳細] 8で使用した年齢を参照して値を出力する。
 		
+		// 9で自己代入された値を戻すため、整数型の変数「age」に「24」を再代入
+		age     = 24;
 		// 比較演算子を用いて、8で使用した年齢が25歳以上であれば「true」を出力
 		System.out.println(age >= 25);
 		// 改行
@@ -231,6 +233,11 @@ public class Qes1_13 {
 		// 11
 		// [概要] 数値から文字列への型変換処理
 		// [詳細] 8で使用した年齢、身長、体重を文字列型に型変換し、繋げて値を出力する。
+
+		// 9で自己代入された値を戻すため、整数型の変数「height」に「168.5」を再代入
+		height  = 168.5;
+		// 9で自己代入された値を戻すため、整数型の変数「weight」に「64.2」を再代入
+		weight  = 64.2;
 
 		// 8で使用した整数型の変数「age」を文字列型の変数「age4」へ型変換
 		String age4	   = String.valueOf(age);
