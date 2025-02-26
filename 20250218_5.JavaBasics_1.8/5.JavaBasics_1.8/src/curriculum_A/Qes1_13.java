@@ -44,7 +44,7 @@ public class Qes1_13 {
 		// 文字型の変数「cha」に初期値「\u0000」を代入
 		cha = '\u0000';
 		// 文字列型の変数「str」に初期値「null」を代入
-		str = "null";
+		str = null;
 		// ブーリアン型の変数「boo」に初期値「false」を代入
 		boo = false;
 		
