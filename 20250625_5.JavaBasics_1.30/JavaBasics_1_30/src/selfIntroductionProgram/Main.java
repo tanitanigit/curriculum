@@ -44,12 +44,14 @@ class Main {
 		System.out.println(person1.age);
 		// 指定の文字列を表示(Personクラスのフィールドから身長を取得)
 		System.out.println(person1.height);
+		// 改行
+		System.out.println();
 
 		// person1のメソッド「print」を呼び出す(名前、年齢、BMIを表示)
 		person1.print();
 
 		// 問題10：人数の合計を「合計○人です」と出力してください。
 		// 指定の文字列を表示(静的メンバ変数を使って人数の合計を表示)
-		System.out.println("合計" + Person.count + "人です");
+		System.out.println("\n合計" + Person.count + "人です");
 	}
 }
